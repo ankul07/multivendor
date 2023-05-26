@@ -8,7 +8,7 @@ const path = require("path");
 
 app.use(
   cors({
-    origin: "https://apnii-dukaan.netlify.app",
+    origin: "http://localhost:3000",
     credentials: true,
     methods: ["POST", "GET", "DELETE", "PUT"],
   })
