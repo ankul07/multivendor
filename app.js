@@ -8,7 +8,7 @@ const path = require("path");
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://frontend-multivendor.vercel.app",
     credentials: true,
     methods: ["POST", "GET", "DELETE", "PUT"],
   })

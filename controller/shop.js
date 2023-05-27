@@ -44,7 +44,7 @@ router.post("/create-shop", upload.single("file"), async (req, res, next) => {
 
     const activationToken = createActivationToken(seller);
 
-    const activationUrl = `https://apnii-dukaan.netlify.app/seller/activation/${activationToken}`;
+    const activationUrl = `https://frontend-multivendor.vercel.app/seller/activation/${activationToken}`;
 
     try {
       await sendMail({
