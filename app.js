@@ -8,7 +8,7 @@ const path = require("path");
 
 app.use(
   cors({
-    origin: "https://frontend-multivendor.vercel.app",
+    origin: "https://apni-dukan-mu.vercel.app",
     credentials: true,
     methods: ["POST", "GET", "DELETE", "PUT"],
   })

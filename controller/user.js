@@ -40,7 +40,7 @@ router.post("/create-user", upload.single("file"), async (req, res, next) => {
 
     const activationToken = createActivationToken(user);
 
-    const activationUrl = `https://frontend-multivendor.vercel.app/activation/${activationToken}`;
+    const activationUrl = `https://apni-dukan-mu.vercel.app/activation/${activationToken}`;
 
     try {
       await sendMail({
